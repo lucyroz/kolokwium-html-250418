@@ -1,1 +1,1 @@
-# kolokwium-html-250418
+# Kolokwium HTML — <Łucja Rozniata> Numer albumu: <250418> Kierunek: Kognitywistyka Komunikacji Grupa: <2> Data: <2026-10-30>
