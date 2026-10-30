@@ -22,6 +22,9 @@
     </ol>
     <h4>Aby sprawdzić jaka rasa jest dla Ciebie odpowiednia.Kliknij w link  </h4>
     <a href="https://www.google.com">Sprawdź rasy kotów</a>
+    <p>        </p>
+
+    
     <table>
         <tr>
             <th>Rasa</th>
@@ -43,10 +46,23 @@
 <form>
     <label for="Imię i Nazwisko">Imię i Nazwisko:</label>
     <input type="text" id="Imię i Nazwisko" name="Imię i Nazwisko" required> 
-    <label for="Email">Email:</label>
-    <input type="email" id="Email" name="Email" required>
-    <label for="Czego oczekujesz?">Czego oczekujesz?</label>
-    <input type="text" id="Czego oczekujesz?" name="Czego oczekujesz?" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>   
+
+    <label for="wiadomości">Wiadomości:</label>
+    <textarea id="wiadomości" name="wiadomości" required></textarea>
+
+    <label for="temat">Temat:</label>
+    <select id="temat" name="temat" required>
+        <option value="">Wybierz temat</option>
+        <option value="informacje">Informacje</option>
+        <option value="zapytanie">Zapytanie</option>
+        <option value="propozycja">Propozycja</option>
+    </select>   
+    <button type="submit">Wyślij</button>
+
+
 
 </form>
 
